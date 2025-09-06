@@ -16,7 +16,16 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.karanspeaks.AssignmentApp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBH3wz0zUkp4T8ny7RQoZXNXqoXMDcAu4M"
+        }
+      }
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +46,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ed35927a-e0d2-4785-87d6-3fae9475b095"
+      }
     }
   }
 }
